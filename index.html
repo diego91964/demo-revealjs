@@ -23,40 +23,21 @@
 	</head>
 	<body>
 		<div class="reveal">
-			<div class= "tdc-head-hr">
-				<div class = "tdc-bar-block-1"></div>
-				<div class = "tdc-bar-block-2"></div>
-				<div class = "tdc-bar-block-3"></div>
-				<div class = "tdc-bar-block-4"></div>
-				<div class = "tdc-bar-block-5"></div>
-				<div class = "tdc-bar-block-6"></div>
-			</div>
+
 			<div class="slides" id="slides">
-
-				<section>
-					<img class="tdc-logo-img" src="css/theme/img/tdc-logo.png" />
-					<h1>Trilha - XXX</h1>
-					<h2>Nome do Palestrante</h2>
-					<h4>Mini bio</h4>
-				</section>
-				<section>Slide 2</section>
-
+				<section class="include-dir"
+				         path-include = "slides/1-introducao/"
+				         start-include = "1"
+				         end-include = "10"
+				         static-name = "-intro.html"> </section>
 			</div>
 
-			<img class="global-code-img" src="css/theme/img/global-code-logo.png" />
 
-			<div class= "tdc-foot-hr">
-				<div class = "tdc-bar-block-1"></div>
-				<div class = "tdc-bar-block-2"></div>
-				<div class = "tdc-bar-block-3"></div>
-				<div class = "tdc-bar-block-4"></div>
-				<div class = "tdc-bar-block-5"></div>
-				<div class = "tdc-bar-block-6"></div>
-			</div>
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
 		<script src="js/reveal.js"></script>
+		<script src="js/include.js"></script>
 
 		<script>
 			// More info https://github.com/hakimel/reveal.js#configuration
