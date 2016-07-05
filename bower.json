@@ -12,7 +12,9 @@
     "Hakim El Hattab <hakim.elhattab@gmail.com>"
   ],
   "dependencies": {
-    "headjs": "~1.0.3"
+    "headjs": "~1.0.3",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
     "node_modules",
     "bower_components",
     "test"
-  ]
+  ],
+  "resolutions": {
+    "jquery": "~2.1.4"
+  }
 }
